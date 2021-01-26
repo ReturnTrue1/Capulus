@@ -1,0 +1,22 @@
+{
+  "name": "coffeeshopbot.v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "distube": "^2.8.8",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "quick.db": "^7.0.0-b21"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
