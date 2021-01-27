@@ -8,10 +8,11 @@ module.exports = {
 
     async run (client, message, args) {
         let items = await db.fetch(message.author.id);
-        if(items === null) items = "Танд юу ч алга."
+        if(items === null || items === undefined || items.length === 0) items = "Танд юу ч алга."
 
         const Embed = new Discord.MessageEmbed()
         .addField('Inventory', items)
+        .setTimestamp()
 
         message.channel.send(Embed);
     }

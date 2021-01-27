@@ -8,9 +8,9 @@ module.exports = {
         const embed = new Discord.MessageEmbed()
         .setAuthor('Capulus Coffee Shop', `https://i.imgur.com/lIQVZRx.jpg`)
         .addFields(
-            { name: '**Эдийн засаг**', value: '`bal`, `daily`, `work`, `inventory`, `leaderboard`'},
-            { name: '**Цэс харах**', value: '`coffee`, `drink`, `bubbletea`, `bingsu`'},
-            { name: '**Худалдаж авах**', value: '`bcoffee`, `bdrink`, `bbubbletea`, `bbingsu`'},
+            { name: '**Эдийн засаг**', value: '`bal`, `daily`, `work`, `inventory`, `leaderboard`, `rank`'},
+            { name: '**Цэс харах**', value: '`coffee`, `softdrink`, `bubbletea`, `bingsu`'},
+            { name: '**Худалдаж авах**', value: '`bcoffee`, `bsoftdrink`, `bbubbletea`, `bbingsu`'},
         )
         .setTimestamp();
 

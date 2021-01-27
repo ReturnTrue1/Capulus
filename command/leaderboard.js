@@ -11,7 +11,7 @@ module.exports = {
         let content = "";
 
         for (let i = 0; i < money.length; i++){
-            let user = client.users.cache.get(money[i].ID.split('_')[2]).username
+            let user = client.users.cache.get(money[i].ID.split('_')[2])
 
             content += `${i+1}. ${user} - ${money[i].data} ${emoji} \n`;
         }
